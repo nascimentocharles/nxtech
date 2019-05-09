@@ -10,12 +10,12 @@ body { background: #E0FFFF; background-size: 50% auto; text-align: left; }
 @font-face { font-family: 'Roboto-Thin'; src: url(fonts/Roboto/Roboto-Thin.ttf); }
 
 /*--- centralização do site ---*/
-#geral { background: transparent; margin: 0 auto; border: 0px solid #000; height: auto; }
+#geral { background: transparent; margin: 0 auto; height: auto; }
 #geral a { color: #008B8B; text-decoration: none; }
 #geral a:hover { color: #FFC125; }
 
 
-#cont-int { background: transparent; text-align: center; height: auto; width: auto; border: 0px solid purple; }
+#cont-int { background: transparent; text-align: center; height: auto; width: auto; }
 
 #cont-int_txt { background: transparent; font-family: Roboto-Medium; height: 44%; 
                 font-size: 1.5em; padding: 8% 0 6% 0; color: #696969; text-shadow: -1px -1px #CFCFCF; }
@@ -23,16 +23,33 @@ body { background: #E0FFFF; background-size: 50% auto; text-align: left; }
 #cont-int_tel { background: transparent; border: 0px purple solid; text-align: center; font-family: Roboto-Regular;
                 font-size: 1.8em; }
 
+
+
 #cont-int_tel-fx { background: transparent; width: auto; height: auto; padding: 25px 0px; }
 #cont-int_tel-fx a { background: transparent; text-decoration: none; } 
 #cont-int_tel-fx img { background: transparent; position: absolute; margin-top: 0.090em; padding-left: 10px; }
+
 
 #cont-int_tel-wa { background: transparent; text-align: center; padding: 25px 0px; font-family: Roboto-Regular; }
 #cont-int_tel-wa a { background: transparent; text-decoration: none; } 
 #cont-int_tel-wa img { background: transparent; position: absolute; width: 35px; height: 35px; padding-left: 10px; }
 
-#cont-int_fce { background: transparent; padding: 2%; width: auto; font-family: Roboto-Regular; }
-#cont-int_fce-f { background: #36648B; }
+
+#cont-int_fce { background: transparent; padding: 2%; width: auto; font-family: Roboto-Regular;  }
+#cont-int_fce-f { background: #36648B; border-radius: 6px 6px 0px 0px; padding-bottom: 4px; }
+#cont-int_fce-f img { background: #fff; border-radius: 6px 6px 0px 0px; float: left; }
+
+#cont-int_fce-f_imgpage { width: 48px; float: left; margin: 0px 0px 0px 46%; margin-top: 3px; }
+
+#cont-int_fce-f_imgchat { height: 48px; width: 48px; float: left; margin: 0px 0px 0px 2%; margin-top: 3px; text-align: center; 
+						  font-size: 13px; border-radius: 6px 6px 0px 0px; background: url(img/nxtech_face-chat.png) #fff left center no-repeat; }
+#cont-int_fce-f_imgchat img { float: left; }
+#cont-int_fce-f_imgchat a { background: transparent; float: right; border-radius: 6px 6px 0px 0px; }
+#cont-int_fce-f_imgchat a:hover { background: transparent; }
+#cont-int_fce-f_imgchat a .txt { background: url(img/nxtech_face-chat.png) #fff left center no-repeat; border-radius: 6px 6px 0px 0px; width: 77px; 
+								 float: right; display: none; padding: 2px 0px 1px 0px; position: absolute; padding-left: 50px; }
+#cont-int_fce-f_imgchat a:hover .txt { display: block; color: #4F94CD; }
+
 #cont-int_fce-e { background: #fff; text-align: center; float: left; padding: 40px 0px; width: 100%; font-size: 165%;
                   font-weight: bold; }
 
