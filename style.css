@@ -42,11 +42,11 @@ body { background: #E0FFFF; background-size: 50% auto; text-align: left; }
 #cont-int_fce-f_imgpage { width: 48px; float: left; margin: 0px 0px 0px 46%; margin-top: 3px; }
 
 #cont-int_fce-f_imgchat { height: 48px; width: 48px; float: left; margin: 0px 0px 0px 2%; margin-top: 3px; text-align: center; 
-						  font-size: 13px; border-radius: 6px 6px 0px 0px; background: url(img/nxtech_face-chat.png) #fff left center no-repeat; }
+						  font-size: 13px; border-radius: 6px 6px 0px 0px; background: url(https://lh3.googleusercontent.com/-fwV4ZX3JDsc/XMuqYT-QhrI/AAAAAAAADp8/huMgyZqisNEjVCKRfhE9XBR16VDr_6T3ACLcBGAs/h120/nxtech_face-chat.png) #fff left center no-repeat; }
 #cont-int_fce-f_imgchat img { float: left; }
 #cont-int_fce-f_imgchat a { background: transparent; float: right; border-radius: 6px 6px 0px 0px; }
 #cont-int_fce-f_imgchat a:hover { background: transparent; }
-#cont-int_fce-f_imgchat a .txt { background: url(img/nxtech_face-chat.png) #fff left center no-repeat; border-radius: 6px 6px 0px 0px; width: 77px; 
+#cont-int_fce-f_imgchat a .txt { background: url(https://lh3.googleusercontent.com/-fwV4ZX3JDsc/XMuqYT-QhrI/AAAAAAAADp8/huMgyZqisNEjVCKRfhE9XBR16VDr_6T3ACLcBGAs/h120/nxtech_face-chat.png) #fff left center no-repeat; border-radius: 6px 6px 0px 0px; width: 77px; 
 								 float: right; display: none; padding: 2px 0px 1px 0px; position: absolute; padding-left: 50px; }
 #cont-int_fce-f_imgchat a:hover .txt { display: block; color: #4F94CD; }
 
@@ -55,15 +55,14 @@ body { background: #E0FFFF; background-size: 50% auto; text-align: left; }
 
 
 
-#form { background: steelblue; height: auto; width: auto; text-align: center; border: 0px solid red; 
-        padding: 0% 8% 0% 8%; font-family: Roboto-Regular; }
+#form { background: steelblue; height: auto; width: auto; text-align: center; padding: 0% 8% 0% 8%; font-family: Roboto-Regular; display: none; display: hide; }
 
 #form_itens { background: transparent; padding: 4% 0% 4% 0%; }
 
-#form h2 { background: transparent; display: none; display: hidden;  }
-#form span { background: transparent; display: none; display: hidden;  }
+#form h2 { background: transparent;  }
+#form span { background: transparent;  }
 
-#form_nom-eml { background: transparent; height: auto; text-align: left; border: 0px solid #000; padding: 6px; width: 50%; padding: 0 25%; display: none; display: hidden; }
+#form_nom-eml { background: transparent; height: auto; text-align: left; border: 0px solid #000; padding: 6px; width: 50%; padding: 0 25%; }
 #form_nom-eml__nome-input  { border: 0px solid red; width: 100%; }
 #form_nom-eml__email-input { border: 0px solid darkred; width: 100%; }
 #form_nom-eml__nome        { background: transparent; float: left; padding: 5px 18px 5px 0px; }
@@ -71,7 +70,7 @@ body { background: #E0FFFF; background-size: 50% auto; text-align: left; }
 #form_nom-eml__input-n     { background: #fff; float: left; width: 88%; height: 25px; }
 #form_nom-eml__input-e     { background: #fff; float: left; width: 88%; height: 25px; } 
 
-#form-input-cad { padding: 10px; margin: 2% 0% 0% 0%; display: none; display: hidden; }
+#form-input-cad { padding: 10px; margin: 2% 0% 0% 0%; }
 
 
 
